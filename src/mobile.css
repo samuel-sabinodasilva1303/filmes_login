@@ -1,0 +1,25 @@
+
+@media  (min-width: 376px) and (max-width: 912px) { 
+
+  #navbar h2 a{
+    display: none;
+  }
+
+
+/*Fim*/
+  #login .title{
+    font-size: 30px;
+  }
+
+}
+
+@media  (min-width: 100px) and (max-width: 375px) {
+  #navbar h2 a{
+    display: none;
+  }
+
+  #navbar form {
+    display: none;
+  }
+
+}

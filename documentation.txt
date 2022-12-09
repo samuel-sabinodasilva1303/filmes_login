@@ -1,0 +1,23 @@
+Documentação filmes.com - Desenvolvido por Samuel Sabino
+
+
+
+Para utilização do aplicativo, utilize:
+npm install
+npm run dev
+Senha de login: 123
+E-mail: Qual o usuário optar.
+
+
+Projeto conta com react e vite, o react router foi configado na versão 6.0, o vite foi utilizado para consumir a API; Utilizei a API do TMDB, onde são passadas informações de filmes, segue o link do TMDB https://www.themoviedb.org/ . Também utilizei os hooks soliciatado, useEffect e useState, além de useNavigete e useContext.
+
+
+A aplicação conta com um cabeçalho com ícones de Home, Login, Logout e pesquisa, além do titulo da aplicação, a primeira página é a de Login, sendo necessário realizar o acesso para que consiga visualizzar as referentes páginas, já que estão bloqueadas, ao realizar o acesso é direcionado de maneira automática para a Home da página onde são apresentadas as informações da API consumida, aqui também consegue acessar a página do filme especifico e saber as informações sobre o mesmo, a página de pesquisa também desbloqueada.
+
+Quando o usuário tenta acessar com uma senha diferente da especificada uma mensagem de erro é apresentada.
+
+Sobre as pastas do projeto, optei por nomea-las de acordo com as suas característica, assim, a indentificação da mesma fica mais fácil, optei por utilizar o CSS simples, ao invés do styled components.
+
+***
+Para realizar o login, utilize a senha "123", o e-mail pode ser opcional.
+***
